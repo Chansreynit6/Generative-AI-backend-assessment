@@ -46,4 +46,5 @@ export class UserInfo {
 
   @UpdateDateColumn()
   modifiedAt: Date;
+    isAdmin: any;
 }
